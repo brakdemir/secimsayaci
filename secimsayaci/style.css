@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+    body{
+        background-color: rgb(100, 100, 100);
+        overflow: hidden;
+    }
+
+.title{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+        text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+
+.red-bg {
+    background-color: rgb(255, 0, 0);
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 30px;
+  }
+  
+  .blue-bg {
+    background-color: white;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px; /* burada sağ padding değeri 5px olarak ayarlanmış */
+    font-size: 30px;
+
+  }
+  
+  .green-bg {
+    background-color: gray;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px; /* burada sağ padding değeri 5px olarak ayarlanmış */
+    font-size: 30px;
+
+  }
+
+  
+  .gray-bg {
+    background-color: black;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px; /* burada sağ padding değeri 5px olarak ayarlanmış */
+    font-size: 30px;
+
+  }
+  
+  .countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .countdown-box {
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 36px;
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+  }
+  
+
+  
+
+
+  
+.left{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.text-left{
+    background-color: rgb(59, 58, 58);
+    color: white;
+    padding-left: 5px;
+    padding-right: 10px; /* burada sağ padding değeri 10px olarak ayarlanmış */
+    font-size: 30px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .countdown-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .countdown-box {
+        background-color: #f2f2f2;
+        padding: 10px 15px;
+        margin-right: 10px;
+        border-radius: 5px;
+        font-size: 100%;
+        font-family: 'Bruno Ace SC', cursive;
+        text-align: center;
+      }
+      
+    
+}  
