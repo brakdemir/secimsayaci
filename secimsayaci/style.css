@@ -27,7 +27,7 @@
     background-color: white;
     color: black;
     padding-left: 5px;
-    padding-right: 5px; /* burada sağ padding değeri 5px olarak ayarlanmış */
+    padding-right: 5px;
     font-size: 30px;
 
   }
@@ -36,7 +36,7 @@
     background-color: gray;
     color: black;
     padding-left: 5px;
-    padding-right: 5px; /* burada sağ padding değeri 5px olarak ayarlanmış */
+    padding-right: 5px; 
     font-size: 30px;
 
   }
@@ -46,7 +46,7 @@
     background-color: black;
     color: white;
     padding-left: 5px;
-    padding-right: 5px; /* burada sağ padding değeri 5px olarak ayarlanmış */
+    padding-right: 5px;
     font-size: 30px;
 
   }
@@ -85,7 +85,7 @@
     background-color: rgb(59, 58, 58);
     color: white;
     padding-left: 5px;
-    padding-right: 10px; /* burada sağ padding değeri 10px olarak ayarlanmış */
+    padding-right: 10px; 
     font-size: 30px;
 }
 
